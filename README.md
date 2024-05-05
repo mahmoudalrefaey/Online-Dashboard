@@ -22,10 +22,6 @@ To use the dashboard, simply open the `index.html` file in any modern web browse
 
 Contributions are welcome! Feel free to fork this repository, make changes, and submit a pull request. Bug fixes, feature enhancements, and suggestions for improvement are all appreciated.
 
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
 ---
 
 Feel free to modify it according to your project's specifics!
