@@ -1,6 +1,3 @@
-# Online-Dashboard
-Sure, here's a sample GitHub description for your online dashboard project:
-
 ---
 
 # Online Dashboard Project
@@ -24,4 +21,4 @@ Contributions are welcome! Feel free to fork this repository, make changes, and 
 
 ---
 
-Feel free to modify it according to your project's specifics!
+Let me know if you need any further modifications!
