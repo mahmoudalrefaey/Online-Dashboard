@@ -1,0 +1,223 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+    color: white;
+}
+
+body {
+    background-color: #123;
+    display: flex;
+    animation: transitionIn 0.4s;
+}
+
+@keyframes transitionIn {
+    from {
+        opacity: 0;
+        transform: rotateX('-10deg');
+    }
+
+    to {
+        opacity: 1;
+        transform: rotateX('0');
+    }
+}
+
+.menu {
+    background-color: #123;
+    width: 50px;
+    height: 100vh;
+    padding: 15px;
+    overflow: hidden;
+    transition: 0.7s;
+
+}
+
+.menu:hover {
+    width: 260px;
+}
+
+ul {
+    list-style: none;
+    height: 95%;
+}
+
+.menu ul li a {
+    display: block;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    padding: 15px 10px;
+    margin: 10px 0px;
+    border-radius: 8px;
+    gap: 30px;
+    transition: 0.4s;
+}
+
+.menu ul li a:hover,
+.active-products,
+.data-info .cards:hover,
+td:hover {
+    background-color: #ffffff50;
+}
+
+.menu ul li a i {
+    font-size: 25px;
+}
+
+.logout-sec a {
+    background-color: rgb(169, 5, 5);
+}
+
+.content {
+    width: 100%;
+    background-color: rgb(34, 52, 70);
+    position: relative;
+}
+
+.title-info {
+    background-color: #0066FF;
+    padding: 5px 20px;
+    margin: 15px 10px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    transition: 0.7s;
+}
+
+.title-info:hover,
+th:hover {
+    background-color: #0066ffca;
+}
+
+.search_box {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    background-color: #ffffff;
+    cursor: pointer;
+    border-radius: 30px;
+    margin: 15px 10px;
+    align-items: center;
+    justify-content: space-between;
+    width: 70%;
+    height: 15px;
+    padding: 10px 20px;
+    box-shadow: 0 10px 25px rgba(255, 255, 255, 0.1);
+}
+
+.search_box input {
+    width: 90%;
+    border: none;
+    outline: none;
+    background: transparent;
+    color: black;
+    font-size: 13px;
+    transition: 0.8;
+    font-weight: 300;
+}
+
+.search_box i {
+    color: #0066FF;
+    font-size: 17px;
+    transition: 0.21s;
+}
+
+.search_box i:hover {
+    color: #0753c5ac;
+    font-size: 15px;
+}
+
+.recentOrder {
+    margin: 100px 10px;
+    padding: 5px;
+    align-items: center;
+}
+
+.tables table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0;
+    margin-top: 10px;
+    border-radius: 8px;
+    overflow: hidden;
+    text-align: center;
+}
+
+.tables th {
+    background-color: #0d5cd2b8;
+    height: 50px;
+    font-weight: 600;
+    color: white;
+}
+
+.tables td {
+    background-color: #123;
+    transition: 0.5s;
+    padding: 10px; /* Add padding to cells for spacing inside */
+    border-bottom: 1px solid #dddddd18; /* Thin line to separate rows */
+}
+
+.tables td:hover {
+    background-color: #456;
+}
+.tables th:hover{
+    background-color: #0066ffca;
+    transition: 0.5s;
+}
+.delivered {
+    padding: 2px 4px;
+    background: #03dc2e;
+    color: var(--white);
+    border-radius: 4px;
+    font-size: 14px;
+    font-weight: 500;
+  }
+.pending {
+    padding: 2px 4px;
+    background: #e9b10a;
+    color: var(--white);
+    border-radius: 4px;
+    font-size: 14px;
+    font-weight: 500;
+  }
+.return {
+    padding: 2px 4px;
+    background: rgb(156, 4, 4);
+    color: var(--white);
+    border-radius: 4px;
+    font-size: 14px;
+    font-weight: 500;
+  }
+.progress {
+    padding: 2px 4px;
+    background: #1795ce;
+    color: var(--white);
+    border-radius: 4px;
+    font-size: 14px;
+    font-weight: 500;
+  }
+  
+
+.view_all{
+    margin: 40px 6px;
+}
+.view_list{
+    color: white;
+    background-color: green;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    border-radius: 10px;
+    padding: 12px 35px;
+    transition: 0.7s ease;
+}
+.view_list:hover {
+    background-color: rgb(6, 186, 6);
+    transform: scale(1.1);
+}

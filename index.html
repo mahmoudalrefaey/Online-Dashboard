@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Dashboard | Mahmoud Al-Refaey</title>
+</head>
+
+<body>
+    <div class="menu">
+        <ul>
+            <li class="home-sec">
+                <a class="active-home" href="#">
+                    <i class="fa-solid fa-house"></i>
+                    <p>Home</p>
+                </a>
+            </li>
+            <li class="clients-sec">
+                <a href="clients/clients_page.html">
+                    <i class="fa-solid fa-user-group"></i>
+                    <p>Clients</p>
+                </a>
+            </li>
+            <li class="products-sec">
+                <a href="products/products_page.html">
+                    <i class="fa-solid fa-table"></i>
+                    <p>Products</p>
+                </a>
+            </li>
+            <li class="shipping-sec">
+                <a href="shipping/shipping_page.html">
+                    <i class="fa-solid fa-truck-fast"></i>
+                    <p>Shipping</p>
+                </a>
+            </li>
+            <li class="charts-sec">
+                <a href="analysis/analysis_page.html">
+                    <i class="fa-solid fa-chart-line"></i>
+                    <p>Analysis</p>
+                </a>
+            </li>
+            <li class="posts-sec">
+                <a href="posts/posts_page.html">
+                    <i class="fa-solid fa-pen"></i>
+                    <p>Posts</p>
+                </a>
+            </li>
+            <li class="fav-sec">
+                <a href="fav/fav_page.html">
+                    <i class="fa-solid fa-star"></i>
+                    <p>Favorite</p>
+                </a>
+            </li>
+            <li class="settings-sec">
+                <a href="settings/settings_page.html">
+                    <i class="fa-solid fa-gear"></i>
+                    <p>Settings</p>
+                </a>
+            </li>
+            <li class="logout-sec">
+                <a class="logout-active" href="#">
+                    <i class="fa-solid fa-right-from-bracket"></i>
+                    <p>Logout</p>
+                </a>
+            </li>
+        </ul>
+    </div>
+
+    <div class="content">
+
+        <div class="title-info">
+            <p>Welcome to dashboard!</p>
+            <i class="fa-solid fa-house"></i>
+        </div>
+        <div class="data-info">
+            <div class="cards">
+                <i class="fa-solid fa-user"></i>
+                <div class="data">
+                    <p>Users</p>
+                    <span>1511</span>
+                </div>
+            </div>
+            <div class="cards">
+                <i class="fa-solid fa-pen"></i>
+                <div class="data">
+                    <p>Posts</p>
+                    <span>457</span>
+                </div>
+            </div>
+            <div class="cards">
+                <i class="fa-solid fa-table"></i>
+                <div class="data">
+                    <p>Products</p>
+                    <span>806</span>
+                </div>
+            </div>
+            <div class="cards">
+                <i class="fa-solid fa-dollar"></i>
+                <div class="data">
+                    <p>Revenue</p>
+                    <span>15477</span>
+                </div>
+            </div>
+        </div>
+        <div class="title-info">
+            <p>Products</p>
+            <i class="fa-solid fa-table"></i>
+        </div>
+        <div class="tables">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Product</th>
+                        <th>Price($)</th>
+                        <th>Count(q)</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>TVs</td>
+                        <td><span class="price">799~2155</span></td>
+                        <td><span class="count">111</span></td>
+                    </tr>
+                    <tr>
+                        <td>ACs</td>
+                        <td><span class="price">250~1589</span></td>
+                        <td><span class="count">122</span></td>
+                    </tr>
+                    <tr>
+                        <td>iPhones</td>
+                        <td><span class="price">890~1499</span></td>
+                        <td><span class="count">188</span></td>
+                    </tr>
+                    <tr>
+                        <td>Android Mid-Range</td>
+                        <td><span class="price">140~450</span></td>
+                        <td><span class="count">48</span></td>
+                    </tr>
+                    <tr>
+                        <td>Android Flagship</td>
+                        <td><span class="price">570~1479</span></td>
+                        <td><span class="count">192</span></td>
+                    </tr>
+                    <tr>
+                        <td>Laptops</td>
+                        <td><span class="price">740~1599</span></td>
+                        <td><span class="count">145</span></td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td>...</td>
+                        <td>...</td>
+                        <td>...</td>
+                    </tr>
+                </tfoot>
+            </table>
+        </div>
+    </div>
+</body>
+
+</html>
